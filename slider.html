@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/slider-style.css">
+</head>
+<body>
+  <div class="carousel slide" data-ride="carousel" data-interval="3000" id="saweb">
+     <!--carousel slide= use for sliding effect.|  data-ride="carousel"= using for slide or chng the image. | data-interval="3000"= use for time for sliding effect-->
+    <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="img/s1.jpg" >
+     </div>
+     <div class="carousel-item">
+       <img src="img/s2.jpg" >
+     </div>
+     <div class="carousel-item">
+       <img src="img/s3.jpg" >
+     </div>
+   </div>
+   <a href="#saweb" class="carousel-control-next" data-slide="next">
+     <span class="carousel-control-next-icon"></span>
+   </a>
+   <a href="#saweb" class="carousel-control-prev" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+   <!--carousel-control-next/prev=use for click to next or previous | carousel-control-next/prev-icon= use for showing next or previous icon-->
+  <ul class="carousel-indicators"> <!-- showing indicator-->
+    <li data-target="#saweb" data-slide-to="0" class="active"></li> <!-- use 0=1 (use 0 for represent 1)-->
+    <li data-target="#saweb" data-slide-to="1"></li> <!-- use 1=2 (use 1 for represent 2)-->
+    <li data-target="#saweb" data-slide-to="2"></li> <!-- use 2=3 (use 2 for represent 3)-->
+  </ul>
+  </div>
+  
+</body>
+</html>
